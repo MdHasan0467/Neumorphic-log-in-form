@@ -3,7 +3,7 @@ import './LogIn.css'
 
 const LogIn = () => {
     return (
-        <div className='form ml-[20%] lg:ml-[40%] mt-[5%] w-[220px] py-5 rounded-lg '>
+        <div className='form ml-[20%] lg:ml-[40%] pr-10 lg:pr-0 mt-[5%] w-[220px] py-5 rounded-lg '>
             <h1 className=''>Log In Form</h1>
             <img className='w-[50px] h-[50px] cursor-pointer rounded-full ml-[35%] mt-5' src="https://cdn5.vectorstock.com/i/thumb-large/90/99/black-thin-line-sign-up-with-hand-vector-28279099.jpg" alt="" />
             <div className='mt-6 '>
