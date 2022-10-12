@@ -11,7 +11,7 @@ const LogIn = () => {
              <input className='block ml-3  py-1 px-2 mb-2' type="text" placeholder='Enter your email address' />
             <input className='block ml-3 py-1 px-2' type="password" placeholder='Enter your valid password' />
             </div>
-            <p className='text-gray-600 mt-5'>Forgot password?
+            <p className='text-gray-600 mt-5 cursor-pointer'>Forgot password?
              <span className='text-black font-semibold'> or </span>
              Sign up
              </p>
