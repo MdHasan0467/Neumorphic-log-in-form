@@ -5,7 +5,7 @@ import Header from '../Header/Header';
 const Home = () => {
     return (
         <div>
-        <div className='hidden'>
+        <div>
         <Header></Header>
         </div>
         <Outlet></Outlet>

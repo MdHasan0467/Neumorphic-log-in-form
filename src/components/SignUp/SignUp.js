@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './SignUp.css'
 
 const SignUp = () => {
     return (
-        <div>
-        <button className='mt-10 px-3'><Link className='hover:text-red-400' to={'/login'}>Log In</Link></button>
+    
         <div className='form lg:mx-96 mx-20 mt-[5%] lg:mt-[1%] py-5 rounded-lg '>
         <div>
         <div className='grid grid-cols-1 lg:grid-cols-3'>
@@ -28,7 +26,7 @@ const SignUp = () => {
         
     </div>
         </div>
-        </div>
+        
     );
 };
 
