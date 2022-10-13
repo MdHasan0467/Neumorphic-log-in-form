@@ -4,13 +4,13 @@ import './SignUp.css'
 const SignUp = () => {
     return (
     
-        <div className='form lg:mx-96 mx-20 mt-[5%]  lg:mt-[1%] py-5 rounded-lg '>
+        <div className='form lg:mx-96 mx-20 mt-[5%]  px-7 lg:px-0 lg:mt-[1%] py-5 rounded-lg '>
         <div>
         <div className='grid grid-cols-1 lg:grid-cols-3'>
         <img className='lg:w-[50%] lg:h-[100%] w-[100px] h-[100px] ml-16 lg:ml-5' src="https://cdn5.vectorstock.com/i/thumb-large/90/99/black-thin-line-sign-up-with-hand-vector-28279099.jpg" alt="" />
         <h1 className='mt-7 lg:flex lg:justify-start lg:ml-12 col-span-2'>Sign up Now</h1>
         </div>
-        <div className='flex justify-center px-7 lg:px-0'>
+        <div className='flex justify-center'>
         <div className='mt-6 '>
          <div className='name'>
          <input className='block   py-1 px-2 mb-2 rounded-md' type="text" placeholder='First Name' />
