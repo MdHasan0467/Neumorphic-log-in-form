@@ -15,7 +15,7 @@ const LogIn = () => {
             <button className='mt-5 text-gray-500 py-1 rounded-md px-3'> Log In </button>
             <p className='text-gray-600 mt-5 cursor-pointer'>Forgot password?
              <span className='text-black font-semibold'> or </span>
-             <Link className='hover:text-red-400' to={'/signup'}>Sign up</Link>
+             <Link className='/signup' to={'/signup'}>Sign up</Link>
              </p>
         </div>
         </div>
