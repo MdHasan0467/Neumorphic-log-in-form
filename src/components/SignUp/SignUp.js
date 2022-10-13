@@ -4,7 +4,7 @@ import './SignUp.css'
 const SignUp = () => {
     return (
     
-        <div className='form lg:mx-96 mx-20 mt-[5%]  px-7 lg:px-0 lg:mt-[1%] py-5 rounded-lg '>
+        <div className='form lg:mx-96 mx-20 mt-[5%]  lg:mt-[1%] py-5 rounded-lg '>
         <div>
         <div className='grid grid-cols-1 lg:grid-cols-3'>
         <img className='lg:w-[50%] lg:h-[100%] w-[100px] h-[100px] ml-16 lg:ml-5' src="https://cdn5.vectorstock.com/i/thumb-large/90/99/black-thin-line-sign-up-with-hand-vector-28279099.jpg" alt="" />
