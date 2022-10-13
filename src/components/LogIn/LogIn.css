@@ -8,3 +8,11 @@ input {
   box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
               inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
+button {
+  box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+              inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+input:focus{
+  outline: none;
+  border: none;
+}
