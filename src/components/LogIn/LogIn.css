@@ -9,10 +9,18 @@ input {
               inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
 button {
+  border: 1px solid transparent;
   box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
               inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+button:hover{
+  border: 1px solid rgb(70, 70, 70);
 }
 input:focus{
   outline: none;
   border: none;
+}
+.icons{
+  border: 1px solid #c3c3c3;
+  color: salmon;
 }

@@ -16,6 +16,10 @@ function App() {
           element:<LogIn></LogIn>
         },
         {
+          path:"/",
+          element:<LogIn></LogIn>
+        },
+        {
           path:"/signup",
           element:<SignUp></SignUp>
         },

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='flex justify-end mr-32 mt-5'>
-            <Link className='ml-5 hover:text-red-400' to={'/login'}>Log In</Link>
-            <Link className='ml-5 hover:text-red-400' to={'/signup'}>Sign Up</Link>
+        <div className="grid grid-cols-10 bg-slate-700">
+        <h1 className=' col-span-8 p-5 text-white font-serif'>Please fill up this form</h1>
+
+        <img className='w-[70px] rounded-full my-auto' src="http://www.globaldreamindia.com/images/dem_login.jpg" alt="" />
         </div>
     );
 };
